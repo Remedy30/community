@@ -1,0 +1,11 @@
+2022-02-21 13:25:02.143  INFO 15580 --- [main] com.nowcoder.community.LoggerTests       : Starting LoggerTests on LAPTOP-V5C30F86 with PID 15580 (started by SCIENTIST- in D:\WorkSpace\community)
+2022-02-21 13:25:02.144 DEBUG 15580 --- [main] com.nowcoder.community.LoggerTests       : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-02-21 13:25:02.144  INFO 15580 --- [main] com.nowcoder.community.LoggerTests       : No active profile set, falling back to default profiles: default
+2022-02-21 13:25:04.417  INFO 15580 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-21 13:25:04.786  INFO 15580 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-02-21 13:25:05.046  INFO 15580 --- [main] com.nowcoder.community.LoggerTests       : Started LoggerTests in 3.242 seconds (JVM running for 3.966)
+2022-02-21 13:25:05.210 DEBUG 15580 --- [main] com.nowcoder.community.LoggerTests       : debug!!!
+2022-02-21 13:25:05.211  INFO 15580 --- [main] com.nowcoder.community.LoggerTests       : info!!!
+2022-02-21 13:25:05.211  WARN 15580 --- [main] com.nowcoder.community.LoggerTests       : warn!!!
+2022-02-21 13:25:05.211 ERROR 15580 --- [main] com.nowcoder.community.LoggerTests       : error!!!
+2022-02-21 13:25:05.217  INFO 15580 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
