@@ -1,7 +1,62 @@
-2022-02-21 13:39:15,828 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:50] Starting LoggerTests on LAPTOP-V5C30F86 with PID 8988 (started by SCIENTIST- in D:\WorkSpace\community)
-2022-02-21 13:39:15,829 INFO [main] c.n.c.LoggerTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
-2022-02-21 13:39:18,008 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
-2022-02-21 13:39:18,334 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
-2022-02-21 13:39:18,616 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:59] Started LoggerTests in 3.193 seconds (JVM running for 4.021)
-2022-02-21 13:39:18,795 INFO [main] c.n.c.LoggerTests [LoggerTests.java:23] info!!!
-2022-02-21 13:39:18,804 INFO [Thread-3] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-01 15:35:36,257 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-V5C30F86 with PID 2364 (D:\WorkSpace\community\target\classes started by SCIENTIST- in D:\WorkSpace\community)
+2022-03-01 15:35:36,270 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-03-01 15:35:36,302 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-01 15:35:36,302 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-01 15:35:37,325 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2022-03-01 15:35:37,335 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-01 15:35:37,341 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-03-01 15:35:37,341 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-03-01 15:35:37,346 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2022-03-01 15:35:37,346 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-03-01 15:35:37,346 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-03-01 15:35:37,359 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2022-03-01 15:35:37,431 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-03-01 15:35:37,432 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 1129 ms
+2022-03-01 15:35:37,886 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-01 15:35:37,973 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-03-01 15:35:38,060 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2022-03-01 15:35:38,079 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-03-01 15:35:38,097 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-03-01 15:35:38,099 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 2.268 seconds (JVM running for 4.414)
+2022-03-01 15:36:00,597 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-01 15:36:00,597 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2022-03-01 15:36:00,603 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 6 ms
+2022-03-01 15:36:00,657 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-03-01 15:36:55,793 INFO [http-nio-8080-exec-4] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-03-01 15:36:55,882 INFO [http-nio-8080-exec-4] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-03-01 15:51:54,120 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:50] Starting MailTests on LAPTOP-V5C30F86 with PID 15568 (started by SCIENTIST- in D:\WorkSpace\community)
+2022-03-01 15:51:54,122 INFO [main] c.n.c.MailTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-03-01 15:51:56,263 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-01 15:51:56,507 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-03-01 15:51:56,739 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:59] Started MailTests in 2.957 seconds (JVM running for 3.74)
+2022-03-01 15:52:00,882 INFO [Thread-3] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-01 15:57:17,807 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:50] Starting MailTests on LAPTOP-V5C30F86 with PID 16876 (started by SCIENTIST- in D:\WorkSpace\community)
+2022-03-01 15:57:17,809 INFO [main] c.n.c.MailTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-03-01 15:57:19,998 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-01 15:57:20,212 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-03-01 15:57:20,460 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:59] Started MailTests in 3.031 seconds (JVM running for 3.844)
+2022-03-01 15:57:23,382 INFO [Thread-3] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-01 16:09:18,783 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:50] Starting MailTests on LAPTOP-V5C30F86 with PID 17132 (started by SCIENTIST- in D:\WorkSpace\community)
+2022-03-01 16:09:18,785 INFO [main] c.n.c.MailTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-03-01 16:09:21,027 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-01 16:09:21,269 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-03-01 16:09:21,573 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:59] Started MailTests in 3.149 seconds (JVM running for 3.892)
+2022-03-01 16:09:24,847 INFO [Thread-3] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-01 16:17:15,806 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:50] Starting MailTests on LAPTOP-V5C30F86 with PID 18056 (started by SCIENTIST- in D:\WorkSpace\community)
+2022-03-01 16:17:15,808 INFO [main] c.n.c.MailTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-03-01 16:17:17,889 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-01 16:17:18,139 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-03-01 16:17:18,416 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:59] Started MailTests in 2.947 seconds (JVM running for 3.713)
+2022-03-01 16:17:18,736 INFO [Thread-3] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-01 16:17:50,894 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:50] Starting MailTests on LAPTOP-V5C30F86 with PID 14876 (started by SCIENTIST- in D:\WorkSpace\community)
+2022-03-01 16:17:50,896 INFO [main] c.n.c.MailTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-03-01 16:17:53,018 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-01 16:17:53,255 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-03-01 16:17:53,491 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:59] Started MailTests in 2.942 seconds (JVM running for 3.718)
+2022-03-01 16:17:57,735 INFO [Thread-3] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-01 16:24:42,217 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:50] Starting MailTests on LAPTOP-V5C30F86 with PID 16024 (started by SCIENTIST- in D:\WorkSpace\community)
+2022-03-01 16:24:42,219 INFO [main] c.n.c.MailTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-03-01 16:24:44,377 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-01 16:24:44,612 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-03-01 16:24:44,865 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:59] Started MailTests in 3.01 seconds (JVM running for 3.779)
+2022-03-01 16:24:48,080 INFO [Thread-3] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
